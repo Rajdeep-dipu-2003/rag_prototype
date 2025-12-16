@@ -1,0 +1,17 @@
+[project]
+name = "prototype"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.3.6",
+    "fastapi[standard]>=0.124.4",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.2.0",
+    "langchain-google-genai>=4.0.0",
+    "pymongo>=4.15.5",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.0",
+    "uvicorn[standard]>=0.38.0",
+]
